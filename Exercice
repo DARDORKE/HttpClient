@@ -1,0 +1,4 @@
+Créez une application Symfony, qui effectuera une requête sur l'API JSONPlaceholder (Code) et
+récupèrera les posts et les listera dans un tableau.
+
+Vous êtes libre d'implémenter le style que vous souhaitez sur la page.
