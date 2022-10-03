@@ -12,9 +12,15 @@ class PostsController extends AbstractController
     #[Route('/posts', name: 'app_posts')]
     public function index(HttpClientInterface $httpClient): Response
     {
-        $response = $httpClient->request('GET', 'https://jsonplaceholder.typicode.com/posts');
+        $response = $httpClient->request('POST', 'https://jsonplaceholder.typicode.com/posts', [
+            "body" => [
+                "title" => "Test Post",
+                "body" => "Contenu du post",
+                "userId" => 2,
+            ]
+        ]);
         return $this->render('posts/index.html.twig', [
-            'posts' => $response->toArray(),
+            'post' => $response->toArray(),
         ]);
     }
 }
