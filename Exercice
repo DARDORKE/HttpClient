@@ -1,4 +1,3 @@
-Créez une application Symfony, qui effectuera une requête sur l'API JSONPlaceholder (Code) et
-récupèrera les posts et les listera dans un tableau.
+Dans votre application Symfony, créez une page qui crée un nouveau POST (via une requête sur API)
+affichant la réponse de l'API suite à cette requête. L'Url de l'API est la suivante : Code.
 
-Vous êtes libre d'implémenter le style que vous souhaitez sur la page.
