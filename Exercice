@@ -1,3 +1,6 @@
-Dans votre application Symfony, créez une page qui crée un nouveau POST (via une requête sur API)
-affichant la réponse de l'API suite à cette requête. L'Url de l'API est la suivante : Code.
+Vous devrez créer une application Symfony qui, via l'API ReqRes, implémente un « faux » système d'authentification
+et redirige sur une page d'accueil où sont listés les différents utilisateurs suivant leurs caractéristiques
+(nom, prénom, email, avatar).
 
+Vous êtes libre d'implémenter le style qui vous convient sur vos pages. N'oubliez pas de bien prendre connaissance
+de la documentation de l'API.
